@@ -3,7 +3,7 @@ name: idea-generator
 description: Generates a list of brainstorm ideas on a given topic, optionally biased by an exploration direction. Use when raw, unfiltered ideas are needed — usually invoked by the brainstorm plugin's skills, but available to any caller that needs an idea-generation step.
 tools: mcp__plugin_brainstorm_brainstorm-server__check_premium_access, Skill, AskUserQuestion, mcp__plugin_brainstorm_brainstorm-server__authenticate, Bash(open:*), Bash(xdg-open:*), Bash(echo:*), PowerShell(Start-Process:*), PowerShell(Write-Output:*), Read
 metadata:
-  favonian-component-id: 019f59f3-e60d-73fc-851e-791d4d3eeb10
+  plugpass-component-id: 019f59f3-e60d-73fc-851e-791d4d3eeb10
 ---
 
 **Before performing CORE_INSTRUCTIONS, you must call `mcp__plugin_brainstorm_brainstorm-server__check_premium_access` with `{ "plugin_id": "019f59f3-e60d-73fc-851e-5879ded43db6", "feature_type": "agent", "feature_id": "019f59f3-e60d-73fc-851e-791d4d3eeb10", "plugin_version": "0.0.1" }`. This tool call must be repeated for each unique use of this agent.**

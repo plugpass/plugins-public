@@ -1,6 +1,6 @@
 ---
 name: premium_check_cases
-description: Use this skill 1) when you are instructed to invoke it directly, 2) whenever any tool result includes FAVONIAN_PLUGIN=brainstorm && USE_AUTHORIZED=false, FAVONIAN_PLUGIN=brainstorm && SIGNUP_REQUIRED=true, or FAVONIAN_PLUGIN=brainstorm && OUTDATED=true.
+description: Use this skill 1) when you are instructed to invoke it directly, 2) whenever any tool result includes PLUGPASS_PLUGIN=brainstorm && USE_AUTHORIZED=false, PLUGPASS_PLUGIN=brainstorm && SIGNUP_REQUIRED=true, or PLUGPASS_PLUGIN=brainstorm && OUTDATED=true.
 user-invocable: false
 allowed-tools: mcp__plugin_brainstorm_brainstorm-server__authenticate, AskUserQuestion, Bash(open:*), Bash(xdg-open:*), Bash(echo:*), PowerShell(Start-Process:*), PowerShell(Write-Output:*), Read, Skill(update-config)
 ---
@@ -582,7 +582,7 @@ Do not perform CORE_INSTRUCTIONS! Respond to the user's message as appropriate.
 
 > The Brainstorm plugin is out of date.
 >
-> Turn on auto-update for the Favonian marketplace to keep the plugin up to date with the latest features & fixes, or run `/plugin marketplace update favonian-marketplace` to update manually each time.
+> Turn on auto-update for the Plugpass marketplace to keep the plugin up to date with the latest features & fixes, or run `/plugin marketplace update plugpass-marketplace` to update manually each time.
 
 Present the `AutoUpdateChoice` prompt with USER_INPUT_TOOL:
 - Prompt: Turn on auto-update?
@@ -592,7 +592,7 @@ Present the `AutoUpdateChoice` prompt with USER_INPUT_TOOL:
 
 ### If user answers `Turn on` to `AutoUpdateChoice`
 
-Invoke the `update-config` skill to set `extraKnownMarketplaces.favonian-marketplace` in `~/.claude/settings.json` to `{ "source": { "source": "github", "repo": "favonian-ai/favonian-marketplace" }, "autoUpdate": true }`.
+Invoke the `update-config` skill to set `extraKnownMarketplaces.plugpass-marketplace` in `~/.claude/settings.json` to `{ "source": { "source": "github", "repo": "plugpass-ai/plugpass-marketplace" }, "autoUpdate": true }`.
 
 ### If user answers `Not now` to `AutoUpdateChoice`
 

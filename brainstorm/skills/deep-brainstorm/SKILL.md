@@ -3,7 +3,7 @@ name: deep-brainstorm
 description: Generate a wide range of ideas across multiple exploration angles, then refine down to the strongest few. Use when the user wants richer, more curated brainstorm results than `quick-brainstorm` produces.
 allowed-tools: AskUserQuestion, Task, mcp__plugin_brainstorm_brainstorm-server__check_premium_access, Skill
 metadata:
-  favonian-component-id: 019f59f3-e60d-73fc-851e-69e0beea93aa
+  plugpass-component-id: 019f59f3-e60d-73fc-851e-69e0beea93aa
 ---
 
 **Before performing CORE_INSTRUCTIONS, you must call `mcp__plugin_brainstorm_brainstorm-server__check_premium_access` with `{ "plugin_id": "019f59f3-e60d-73fc-851e-5879ded43db6", "feature_type": "skill", "feature_id": "019f59f3-e60d-73fc-851e-69e0beea93aa", "plugin_version": "0.0.1" }`. This tool call must be repeated for each unique use of this skill.**

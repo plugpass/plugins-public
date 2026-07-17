@@ -3,7 +3,7 @@ name: quick-brainstorm
 description: Generate a short list of fresh ideas on a topic. Use when the user wants quick inspiration — names, feature concepts, project directions, naming candidates — without needing a deep multi-angle exploration. Free.
 allowed-tools: AskUserQuestion, Task, mcp__plugin_brainstorm_brainstorm-server__check_premium_access, Skill
 metadata:
-  favonian-component-id: 019f59f3-e60d-73fc-851e-70848ae570e9
+  plugpass-component-id: 019f59f3-e60d-73fc-851e-70848ae570e9
 ---
 
 **Before performing CORE_INSTRUCTIONS, you must call `mcp__plugin_brainstorm_brainstorm-server__check_premium_access` with `{ "plugin_id": "019f59f3-e60d-73fc-851e-5879ded43db6", "feature_type": "skill", "feature_id": "019f59f3-e60d-73fc-851e-70848ae570e9", "plugin_version": "0.0.1" }`. This tool call must be repeated for each unique use of this skill.**
