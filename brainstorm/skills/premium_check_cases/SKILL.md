@@ -592,7 +592,7 @@ Present the `AutoUpdateChoice` prompt with USER_INPUT_TOOL:
 
 ### If user answers `Turn on` to `AutoUpdateChoice`
 
-Invoke the `update-config` skill to set `extraKnownMarketplaces.plugpass-marketplace` in `~/.claude/settings.json` to `{ "source": { "source": "github", "repo": "plugpass-ai/plugpass-marketplace" }, "autoUpdate": true }`.
+Invoke the `update-config` skill to set `extraKnownMarketplaces.plugpass-marketplace` in `~/.claude/settings.json` to `{ "source": { "source": "github", "repo": "plugpass/plugpass-marketplace" }, "autoUpdate": true }`.
 
 ### If user answers `Not now` to `AutoUpdateChoice`
 
