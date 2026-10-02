@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "golive-native": {
-      "type": "http",
-      "url": "https://golive-native.treefrog.favonian.ai/mcp"
-    }
-  }
-}
