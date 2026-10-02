@@ -3,6 +3,7 @@
   "displayName": "Go Live Native",
   "version": "0.0.1",
   "description": "A throwaway plugin for the Deploy, Then Publish loop on staging.",
+  "license": "LicenseRef-Plugpass-EULA-1.0",
   "author": {
     "name": "Brainstorm Labs"
   },
