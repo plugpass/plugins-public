@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "golive-server-mcp": {
+      "type": "http",
+      "url": "https://golive-server-mcp.favonian.ai/mcp"
+    }
+  }
+}

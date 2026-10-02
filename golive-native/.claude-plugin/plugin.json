@@ -1,0 +1,12 @@
+{
+  "name": "golive-native",
+  "displayName": "Go Live Native",
+  "version": "0.0.1",
+  "description": "A throwaway plugin for the Deploy, Then Publish loop on staging.",
+  "author": {
+    "name": "Brainstorm Labs"
+  },
+  "metadata": {
+    "plugpass-plugin-id": "7UdNdGte"
+  }
+}
