@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "brainstorm",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "description": "Generate, expand, and refine ideas across topics. Quick brainstorms for fast inspiration; deep brainstorms for richer multi-angle exploration with refined results.",
   "author": { "name": "Brainstorm Labs" },
   "license": "LicenseRef-Plugpass-EULA-1.0",
