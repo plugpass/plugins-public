@@ -1,0 +1,6 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "brainstorm-server": { "type": "streamable-http", "url": "https://mcp.bandwidth.email/mcp" }
+  }
+}
